@@ -37,3 +37,9 @@ Programming connector:
 
 ## Software
 The microcontroller is protected against readout, so I could not obtain the firmware via SWD.
+
+## Alternative software
+### STM32-SLCAN
+[STM32-SLCAN](https://github.com/GBert/misc/tree/master/stm32-slcan) looks as if it could provide a working software.
+The clock settings need to be changed, because the original hardware uses a 12 MHz crystal.
+It needs libopencm3 to be obtained separately to compile.
